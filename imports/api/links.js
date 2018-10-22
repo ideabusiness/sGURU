@@ -14,13 +14,13 @@ if (Meteor.isServer) {
 Meteor.methods({
   'links.insert'(url) {
     if (!this.userId) {
-      throw new Meteor.Error('not-authorized');
+      throw new Meteor.Error('non autorizzato');
     }
 
     new SimpleSchema({
       url: {
         type: String,
-        label: 'Your link',
+        label: 'Short.GURU',
         regEx: SimpleSchema.RegEx.Url
       }
     }).validate({ url });
@@ -36,7 +36,7 @@ Meteor.methods({
   },
   'links.setVisibility'(_id, visible) {
     if (!this.userId) {
-      throw new Meteor.Error('not-authorized');
+      throw new Meteor.Error('non autorizzato');
     }
 
     new SimpleSchema({
