@@ -1,4 +1,4 @@
-# Short.GURU web app
+# S.GURU web app
 
 Una semplice applicazione in Meteor, React e MongoDB
 
