@@ -1,7 +1,7 @@
-# Short Lnk
+# Short.GURU web app
 
-This is a link shortener built on Meteor and React for my new course.
+Una semplice applicazione in Meteor, React e MongoDB
 
 ## Authors
 
-Andrew Mead
+Stefano Coggiola
